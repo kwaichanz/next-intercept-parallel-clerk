@@ -6,7 +6,7 @@ import Modal from "@/components/modal";
 export default function InterceptedSignInPage() {
   return (
     <Modal>
-      <SignIn afterSignInUrl="/" />
+      <SignIn afterSignInUrl="/" signUpUrl="/sign-up" />
     </Modal>
   );
 }
